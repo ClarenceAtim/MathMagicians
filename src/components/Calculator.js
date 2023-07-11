@@ -2,7 +2,6 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import './Calculator.css';
 
-// Child component
 function Button({ value, className }) {
   return <button type="button" className={className}>{value}</button>;
 }
@@ -24,9 +23,9 @@ function Calculator() {
       <div className="calculator__wrap">
         <div className="calculator__display">0</div>
         <div className="calculator__functions">
-          <Button value="AC" className="btn--opaque" />
-          <Button value="+/-" className="btn--opaque" />
-          <Button value="%" className="btn--opaque" />
+          <Button value="AC" />
+          <Button value="+/-" />
+          <Button value="%" />
           <Button value="/" className="btn--opaque" />
           <Button value="7" />
           <Button value="8" />
