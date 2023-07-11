@@ -41,6 +41,7 @@
   - CSS
   - Javascript 
   - GitFlow
+  - React
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
