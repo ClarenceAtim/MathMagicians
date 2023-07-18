@@ -1,7 +1,9 @@
-import React, { useState, useEffect } from 'react';
+import { useState, useEffect } from 'react';
+import './Quote.css';
 
 function Quote() {
   const [quote, setQuote] = useState('');
+  const [author, setAuthor] = useState('');
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
 
@@ -18,6 +20,7 @@ function Quote() {
         }
         const data = await response.json();
         setQuote(data[0].quote);
+        setAuthor(data[0].author);
         setLoading(false);
       } catch (error) {
         setError(error.message);
@@ -42,8 +45,12 @@ function Quote() {
   }
 
   return (
-    <div>
-      <div>{quote}</div>
+    <div className="quote-container">
+      <div className="quote">{quote}</div>
+      <div className="author">
+        -
+        {author}
+      </div>
     </div>
   );
 }
