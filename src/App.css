@@ -1,9 +1,3 @@
-.app-container {
-  display: flex;
-  gap: 20px;
-}
-
-.quote-container {
-  width: 21rem;
-  font-family: cursive;
+body {
+  margin: 0; /* Reset default body margin */
 }
