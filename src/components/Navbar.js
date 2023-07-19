@@ -5,6 +5,9 @@ import './Navbar.css';
 function Navbar() {
   return (
     <nav>
+      <div className="logo-container">
+        <h1>Math Magicians</h1>
+      </div>
       <ul>
         <li>
           <NavLink exact to="/" activeClassName="active">Home</NavLink>
