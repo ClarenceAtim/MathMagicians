@@ -1,163 +1,149 @@
+
 <a name="readme-top"></a>
 
 <div align="center">
-
-  <h1><b>MathMagicians - Microverse Project</b></h1>
-
+  <h1>🏆 MathMagicians</h1>
 </div>
+
 <!-- TABLE OF CONTENTS -->
 
-# 📗 Table of Contents
+# 📖 Table of Contents
 
-- [📖 About the Project](#about-project)
-  - [🛠 Built With](#built-with)
-  - [Tech Stack](#tech-stack)
-- [💻 Getting Started](#getting-started)
-  - [Setup](#setup)
-  - [Prerequisites](#prerequisites)
-  - [Run tests](#run-tests)
-- [👥 Authors](#authors)
-- [🔭 Future Features](#future-features)
-- [🤝 Contributing](#contributing)
-- [⭐️ Show your support](#support)
-- [🙏 Acknowledgements](#acknowledgements)
-- [📝 License](#license)
+- [About the Project](#about-project)
+  - [🛠️ Built With](#built-with)
+    - [Tech Stack](#tech-stack)
+    - [🔑 Key Features](#key-features)
+  - [💻 Getting Started](#getting-started)
+    - [Prerequisites](#prerequisites)
+    - [Setup](#setup)
+    - [Install](#install)
+    - [Usage](#usage)
+    - [Run Tests](#run-tests)
+    - [Build](#build)
+    - [Webpack Development Server](#webpack-development-server)
+  - [👤 Author](#author)
+  - [🔮 Future Features](#future-features)
+  - [🤝 Contributing](#contributing)
+  - [⭐️ Show Your Support](#show-your-support)
+  - [🙏 Acknowledgments](#acknowledgments)
+  - [📝 License](#license)
 
-<!-- PROJECT DESCRIPTION -->
+# 📖 About the Project <a name="about-project"></a>
 
-# 📖 MathMagicians <a name="about-project"></a>
+**MathMagicians** is a web application designed for mathematics enthusiasts. It is a Single Page App (SPA) that provides users with the ability to perform simple calculations and discover random math-related quotes.
 
-**"Math magicians" is a website for all fans of mathematics. It is a Single Page App (SPA) that allows users to:**
-- simple calculations.
-- Read a random math-related quote.
-
-## 🛠 Built With <a name="built-with"></a>
+## 🛠️ Built With <a name="built-with"></a>
 
 ### Tech Stack <a name="tech-stack"></a>
 
-> This project was built using the following technologies:
+<details>
+  <summary>🖥️ Client</summary>
+  <ul>
+    <li><a href="https://www.w3schools.com/html/">HTML</a></li>
+    <li><a href="https://www.w3schools.com/css/">CSS</a></li>
+     <li><a href="https://www.w3schools.com/REACT/">React</a></li>
+  </ul>
+</details>
 
-  - HTML
-  - CSS
-  - Javascript 
-  - GitFlow
-  - React
+
+<!-- FEATURES -->
+
+### 🔑 Key Features <a name="key-features"></a>
+
+- ✨ **Simple Calculations**: Showcase the usage of HTML, CSS, and JavaScript linters to ensure code quality.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-## Key Features
-
-
-- **Starter react template**
-- **Useful plugins**
 
 
 <!-- GETTING STARTED -->
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
-
-
-To get a local copy up and running, follow these steps.
-
 ### Prerequisites
 
-In order to run this project you need:
+To run this project, you need the following:
 
-
-Example command:
-
-```sh
-1.use a browser
-2.use cable internet
-```
- 
+- 🌐 Web browser
+- 🐙 Git
+- 👨‍💻 Code editor
 
 ### Setup
 
 Clone this repository to your desired folder:
 
-
-Example commands:
-
-```sh
-  
-  git clone https://github.com/ClarenceAtim/MathMagicians.git
-  cd MathMagicians
-
-
+```bash
+git clone https://github.com/ClarenceAtim/MathMagicians.git
 ```
-
 
 ### Install
 
-Install this project with:
+To install all dependencies, run the following command:
 
-
-Example command:
-
-```sh
-  npm install
+```bash
+npm install
 ```
-
 
 ### Usage
 
-To run the project, execute the following command:
+To run the project, follow these instructions:
 
+1. Clone this repository to your local machine.
 
-Example command:
+### Run Tests
 
-```sh
-- Open the index with live server.
-- Or if you don't have a live server extension open the index in the browser by clicking on the file .
-```
+To run tests, use the following commands:
 
-
-### Run tests
-
-To run tests for the linter, run the following command:
-
-
-Example command:
-
-```sh
+- To track HTML linter errors, run:
+```bash
 npx hint .
+```
+- To track CSS linter errors, run:
+```bash
+npx stylelint "**/*.{css,scss}"
+```
+- To track JavaScript l
+
+inter errors, run:
+```bash
 npx eslint .
 ```
 
+### Build
 
-### Deployment
+To build the project, run the following command:
 
-You can deploy this project using:
+```bash
+npm run build
+```
 
-- Github Pages
-- Render.com
-- Netlify.com
+### Webpack Development Server
 
+To run the webpack development server, execute the following command:
 
+```bash
+npm start
+```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-## 👥 Authors <a name="authors"></a>
+<!-- AUTHOR -->
 
-👤 **Clarence**
+## 👤 Author <a name="author"></a>
 
-- GitHub: [clarence](https://github.com/ClarenceAtim)
-- Twitter: [clarence_](https://twitter.com/BlissTecla?t=Hh-kSP7LFGXpD04CxIsLiw&s=08_)
-- LinkedIn: [clarence](https://www.linkedin.com/in/tegum-clarence-615b58200)
+👤 ClarenceAtim
 
-
+- GitHub: [@ClarenceAtim](https://github.com/ClarenceAtim)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- FUTURE FEATURES -->
-### Key Features <a name="key-features"></a>
 
-- **Responsive**
+## 🔮 Future Features <a name="future-features"></a>
+
+- [ ] 📱 **Mobile Version**
+- [ ] 📝 **Add Model**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 
 <!-- CONTRIBUTING -->
 
@@ -165,26 +151,23 @@ You can deploy this project using:
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [Isuues Pages]https://github.com/ClarenceAtim/MathMagicians/issues
-
+Feel free to check the [issues page](https://github.com/ClarenceAtim/MathMagicians/issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- SUPPORT -->
+<!-- SHOW YOUR SUPPORT -->
 
-## ⭐️ Show your support <a name="support"></a>
+## ⭐️ Show Your Support <a name="show-your-support"></a>
 
-
-If you like this project kindly give it a star⭐️.
+If you like this project, give it a ⭐️.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- ACKNOWLEDGEMENTS -->
 
-## 🙏 Acknowledgments <a name="acknowledgements"></a>
+## 🙏 Acknowledgments <a name="acknowledgments"></a>
 
-
-I would like to thank Ekpenisi E Raphael for the immense support.
+I would like to thank Microverse.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -193,7 +176,6 @@ I would like to thank Ekpenisi E Raphael for the immense support.
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT]https://github.com/ClarenceAtim/Leaderboard//blob/main/LICENSE licensed.
-
+This project is licensed under the [MIT License](./LICENSE).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>

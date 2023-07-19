@@ -33,31 +33,36 @@ function Calculator() {
   }
 
   return (
-    <div className="calculator">
-      <div className="calculator__wrap">
-        <div className="calculator__display">
-          {calculatorData.next || calculatorData.total || '0'}
-        </div>
-        <div className="calculator__functions">
-          <Button value="AC" onClick={() => handleButtonClick('AC')} />
-          <Button value="+/-" onClick={() => handleButtonClick('+/-')} />
-          <Button value="%" onClick={() => handleButtonClick('%')} />
-          <Button value="÷" className="btn--opaque" onClick={() => handleButtonClick('÷')} />
-          <Button value="7" onClick={() => handleButtonClick('7')} />
-          <Button value="8" onClick={() => handleButtonClick('8')} />
-          <Button value="9" onClick={() => handleButtonClick('9')} />
-          <Button value="x" className="btn--opaque" onClick={() => handleButtonClick('x')} />
-          <Button value="4" onClick={() => handleButtonClick('4')} />
-          <Button value="5" onClick={() => handleButtonClick('5')} />
-          <Button value="6" onClick={() => handleButtonClick('6')} />
-          <Button value="-" className="btn--opaque" onClick={() => handleButtonClick('-')} />
-          <Button value="1" onClick={() => handleButtonClick('1')} />
-          <Button value="2" onClick={() => handleButtonClick('2')} />
-          <Button value="3" onClick={() => handleButtonClick('3')} />
-          <Button value="+" className="btn--opaque" onClick={() => handleButtonClick('+')} />
-          <Button value="0" className="btn--large" onClick={() => handleButtonClick('0')} />
-          <Button value="." onClick={() => handleButtonClick('.')} />
-          <Button value="=" className="btn--opaque" onClick={() => handleButtonClick('=')} />
+    <div className="main">
+      <h2>L3t$ D0 s0m3 M@th$</h2>
+      <div className="cover">
+        <div className="calculator">
+          <div className="calculator__wrap">
+            <div className="calculator__display">
+              {calculatorData.next || calculatorData.total || '0'}
+            </div>
+            <div className="calculator__functions">
+              <Button value="AC" onClick={() => handleButtonClick('AC')} />
+              <Button value="+/-" onClick={() => handleButtonClick('+/-')} />
+              <Button value="%" onClick={() => handleButtonClick('%')} />
+              <Button value="÷" className="btn--opaque" onClick={() => handleButtonClick('÷')} />
+              <Button value="7" onClick={() => handleButtonClick('7')} />
+              <Button value="8" onClick={() => handleButtonClick('8')} />
+              <Button value="9" onClick={() => handleButtonClick('9')} />
+              <Button value="x" className="btn--opaque" onClick={() => handleButtonClick('x')} />
+              <Button value="4" onClick={() => handleButtonClick('4')} />
+              <Button value="5" onClick={() => handleButtonClick('5')} />
+              <Button value="6" onClick={() => handleButtonClick('6')} />
+              <Button value="-" className="btn--opaque" onClick={() => handleButtonClick('-')} />
+              <Button value="1" onClick={() => handleButtonClick('1')} />
+              <Button value="2" onClick={() => handleButtonClick('2')} />
+              <Button value="3" onClick={() => handleButtonClick('3')} />
+              <Button value="+" className="btn--opaque" onClick={() => handleButtonClick('+')} />
+              <Button value="0" className="btn--large" onClick={() => handleButtonClick('0')} />
+              <Button value="." onClick={() => handleButtonClick('.')} />
+              <Button value="=" className="btn--opaque" onClick={() => handleButtonClick('=')} />
+            </div>
+          </div>
         </div>
       </div>
     </div>

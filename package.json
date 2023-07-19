@@ -12,7 +12,7 @@
     "prop-types": "^15.8.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "react-router-dom": "^6.14.1",
+    "react-router-dom": "^6.14.2",
     "react-scripts": "5.0.1",
     "tailwindcss": "^3.3.2",
     "web-vitals": "^2.1.4"
@@ -47,6 +47,7 @@
   "devDependencies": {
     "@babel/core": "^7.22.8",
     "@babel/eslint-parser": "^7.22.7",
+    "@babel/plugin-proposal-private-property-in-object": "^7.14.5",
     "@babel/plugin-syntax-jsx": "^7.22.5",
     "@babel/preset-react": "^7.22.5",
     "babel-eslint": "^10.1.0",
@@ -60,8 +61,6 @@
     "stylelint": "^13.13.1",
     "stylelint-config-standard": "^21.0.0",
     "stylelint-csstree-validator": "^1.9.0",
-    "stylelint-scss": "^3.21.0",
-    "@babel/plugin-proposal-private-property-in-object": "^7.14.5"
-
+    "stylelint-scss": "^3.21.0"
   }
 }

@@ -7,11 +7,22 @@ body {
 }
 
 body {
-  display: flex;
-  justify-content: center;
-  align-items: center;
   font-family: 'Roboto', sans-serif;
   background: linear-gradient(#8b9da9, #fff6e4);
+}
+
+.main {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+.cover {
+  border: 1px solid black;
+  padding: 3rem;
 }
 
 .calculator {
